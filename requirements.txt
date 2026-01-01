@@ -1,3 +1,5 @@
+# requirements.txt
+
 # Core
 fastapi
 uvicorn
@@ -8,7 +10,9 @@ langchain
 langchain-community
 langchain-openai
 langchain-chroma
+langchain-ollama
 chromadb
+ollama
 
 # Document parsing & OCR
 unstructured[all-docs]
@@ -16,3 +20,7 @@ unstructured[all-docs]
 # Utilities
 python-dotenv
 pillow
+pyyaml
+
+pymupdf
+langchain-text-splitters
